@@ -8,26 +8,26 @@ function column_link_shortcode($attr)
 	$tag = get_tag($id);
 	$html = <<<'flink'
 	<div>
-		<a class="column_link-frame-size no-underline column_link-frame-style desktop" href="$link">
+		<a class="column-link-frame-size no-underline column-link-frame-style desktop" href="$link">
 			<div class="text-wrapper">
 				<div class="name-date-wrapper">
-					<p class="column_link-name">$name</p>
-					<p class="column_link-add-date">$num 篇文章</p>
+					<p class="column-link-name">$name</p>
+					<p class="column-link-add-date">$num 篇文章</p>
 				</div>
 				<div class="name-date-wrapper">
-					<p class="column_link-description">$description</p>
+					<p class="column-link-description">$description</p>
 				</div>
 			</div>
 		</a>
-		<a class="column_link-frame-size-mo no-underline column_link-frame-style mobile" href="$link">
+		<a class="column-link-frame-size-mo no-underline column-link-frame-style mobile" href="$link">
 			<div class="avatar-date-star-wrapper-mo">
 				<div class="date-star-wrapper-mo">
-					<p class="column_link-add-date">$num 篇文章</p>
+					<p class="column-link-add-date">$num 篇文章</p>
 				</div>
 			</div>
 			<div class="name-description-wrapper-mo">
-				<p class="column_link-name">$name</p>
-				<p class="column_link-description">$description</p>
+				<p class="column-link-name">$name</p>
+				<p class="column-link-description">$description</p>
 			</div>
 		</a>
 	</div>

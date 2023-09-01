@@ -5,7 +5,7 @@ a.no-underline:hover {
     text-decoration: none;
 }
 
-img.column_link-avatar {
+img.column-link-avatar {
     border-radius: 8px;
     height: 100px;
 }
@@ -17,19 +17,20 @@ img.column_link-avatar {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    margin-left: 14px; /* 添加左边距 */
 }
 .name-date-wrapper {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
 }
-.column_link-frame-size {
+.column-link-frame-size {
     height: 128px;
-    margin: 20px 8px;
+    margin: 0px 8px;
     align-items: center;
     gap: 16px;
 }
-.column_link-frame-style {
+.column-link-frame-style {
     position: relative;
     color: #505050;
     /*box-shadow: 0 1px 30px -4px #e8e8e8;*/
@@ -39,82 +40,83 @@ img.column_link-avatar {
     transition: all .2s;
     display: flex;
 }
-.column_link-frame-style.desktop {
+.column-link-frame-style.desktop {
     border-radius: 8px;
     border-right: 0px solid transparent;
+    border-bottom: 1px solid #FFFFFF;
 }
-.column_link-frame-style.mobile {
+.column-link-frame-style.mobile {
     border-radius: 8px 8px 8px 8px;
     border-width: 8px;
     border-bottom: 8px transparent solid;
 }
-.column_link-frame-style:hover {
+.column-link-frame-style:hover {
     box-shadow: 0 1px 20px 10px #e8e8e8;
     background: #AAAAAAFF;
     -webkit-transition: all .2s;
     transition: all .2s;
 }
-.column_link-frame-style.desktop:hover {
+.column-link-frame-style.desktop:hover {
     border-right: 20px solid #2582c8;
 }
-.column_link-frame-style.mobile:hover {
+.column-link-frame-style.mobile:hover {
     border-bottom: 8px solid #2582c8;
 }
-body.dark .column_link-frame-style.mobile:hover {
+body.dark .column-link-frame-style.mobile:hover {
     border-bottom: 8px solid #2582c8;
 }
-.column_link-frame-style i {
+.column-link-frame-style i {
     padding-right: 20px !important;
     font-size: medium;
 }
-.column_link-frame-style a {
+.column-link-frame-style a {
     padding: 5px !important;
 }
-.column_link-frame-style:hover p {
+.column-link-frame-style:hover p {
     color:  #000000 !important;
     transition: color 0.2s !important;
 }
-body.dark .column_link-frame-style {
+body.dark .column-link-frame-style {
     color: #FFFFFF;
     /*box-shadow: 0 1px 20px 2px rgba(26, 26, 26, 0.8);*/
     /*background: #3B2E5899;*/
     /*-webkit-transition: all .2s;
     transition: all .2s;*/
 }
-body.dark .column_link-frame-style:hover {
+body.dark .column-link-frame-style:hover {
     box-shadow: 0 1px 30px -2px var(--theme-skin-dark);
     background: #444444FF;
     /*-webkit-transition: all .2s;
     transition: all .2s;*/
 }
-body.dark .column_link-frame-style:hover p {
+body.dark .column-link-frame-style:hover p {
     color:  #FFFFFF !important;
 }
 
 
-.column_link-name {
+.column-link-name {
     font-weight: bold;
     margin: 0;
     text-align: left;
     font-size: 24px;
 }
-.column_link-add-date {
+.column-link-add-date {
     margin: 0;
     margin-right: 14px; /* 添加右边距 */
 }
-.column_link-description {
+.column-link-description {
     margin-top: 10px;
     margin-bottom: 0;
 }
 
 
-.column_link-frame-size-mo {
+.column-link-frame-size-mo {
     display: none;
     flex-direction: column;        
     margin: 10px 0px;
     gap: 8px;
 }
-img.column_link-avatar-mo {
+img.column-link-avatar-mo {
     border-radius: 8px;
     height: 64px;
 }
@@ -139,10 +141,20 @@ img.column_link-avatar-mo {
     flex-direction: column;
     margin: 0px 10px 10px 12px;
 }
-.name-description-wrapper-mo p.column_link-name{
+.name-description-wrapper-mo p.column-link-name{
     font-size: 20px;
 }
-
+/* 在样式表中定义自定义横线样式 */
+.horizontal-line {
+    width: calc(100% - 28px); /* 设置横线宽度并左右各短14px */
+    height: 1px; /* 设置横线高度为1像素 */
+    background-color: #505050; /* 将横线颜色更改为白色 */
+    margin-left: 14px; /* 左边缩短14px */
+    margin-right: 14px; /* 右边缩短14px */
+}
+body.dark .horizontal-line {
+    background-color: #707070;
+}
 
 @media (max-width: 860px){
     .desktop {
