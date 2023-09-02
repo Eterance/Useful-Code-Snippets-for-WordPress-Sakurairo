@@ -1,0 +1,196 @@
+.ms-docs-wrapper {
+    text-indent: 0 !important;
+    margin: 20px 8px !important;
+    padding: 0px 20px 0px 30px !important;
+    position: relative !important;
+    color: #505050;
+    box-shadow: 0 1px 30px -4px #e8e8e8;
+    border-radius: 8px !important;
+    text-indent: 0 !important;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+    border: 1.5px solid #FFFFFF;
+}
+
+body.dark .ms-docs-wrapper {
+    text-indent: 0 !important;
+    color: #FFFFFF;
+    box-shadow: 0 1px 20px 2px rgba(26, 26, 26, 0.8);
+    -webkit-transition: all .8s;
+    transition: all .8s;
+    border: 1.5px solid #7d7d7d30;
+}
+
+.ms-docs-wrapper:hover {
+    box-shadow: 0 1px 20px 10px #e8e8e8;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
+
+body.dark .ms-docs-wrapper:hover {
+    box-shadow: 0 1px 30px -2px var(--theme-skin-dark) !important;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
+
+.ms-docs-wrapper p {
+    text-indent: 0 !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+body.dark .ms-docs-wrapper p {
+    color: #bbbbbb !important;
+    text-indent: 0 !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.ms-docs-wrapper p.ms-docs-title {
+    font-weight: bold;
+}
+
+body.dark .ms-docs-wrapper p.ms-docs-title {
+    font-weight: bold;
+}
+
+.ms-docs-wrapper i {
+    text-indent: 0 !important;
+    padding-left: 4px !important;
+    padding-right: 16px !important;
+    font-size: medium;
+}
+
+body.dark .ms-docs-wrapper i {
+    text-indent: 0 !important;
+}
+
+.ms-docs-wrapper a {
+    padding: 5px !important;
+}
+
+/*紫色*/
+/*浅色模式背景，b3是透明度*/
+.ms-docs-wrapper-purple {
+    background: #EFD9FDb3;
+}
+/*深色模式背景，99是透明度*/
+body.dark .ms-docs-wrapper-purple {
+    background: #3B2E5899;
+}
+/*浅色模式鼠标指针悬浮背景*/
+.ms-docs-wrapper-purple:hover {
+    background: #EFD9FD;
+}
+/*深色模式鼠标指针悬浮背景*/
+body.dark .ms-docs-wrapper-purple:hover {
+    background: #3B2E58;
+}
+/*浅色模式标题颜色*/
+.ms-docs-wrapper-purple p.ms-docs-title, .ms-docs-wrapper-purple i {
+    color: #3B2E58 !important;
+}
+/*深色模式标题颜色*/
+body.dark .ms-docs-wrapper-purple p.ms-docs-title, body.dark .ms-docs-wrapper-purple i {
+    color: #EFD9FD !important;
+}
+
+/*黄色*/
+.ms-docs-wrapper-yellow {
+    background: #fff4ceb3;
+}
+
+body.dark .ms-docs-wrapper-yellow {
+    background: #6a4b1699;
+}
+
+.ms-docs-wrapper-yellow:hover {
+    background: #fff4ce;
+}
+
+body.dark .ms-docs-wrapper-yellow:hover {
+    background: #6a4b16;
+}
+
+.ms-docs-wrapper-yellow p.ms-docs-title, .ms-docs-wrapper-yellow i {
+    color: #6a4b16 !important;
+}
+
+body.dark .ms-docs-wrapper-yellow p.ms-docs-title, body.dark .ms-docs-wrapper-yellow i {
+    color: #fff4ce !important;
+}
+
+/*红色*/
+.ms-docs-wrapper-red {
+    background: #fde7e9b3;
+}
+
+body.dark .ms-docs-wrapper-red {
+    background: #63000199;
+}
+
+.ms-docs-wrapper-red:hover {
+    background: #fde7e9;
+}
+
+body.dark .ms-docs-wrapper-red:hover {
+    background: #630001;
+}
+
+.ms-docs-wrapper-red p.ms-docs-title, .ms-docs-wrapper-red i {
+    color: #630001 !important;
+}
+
+body.dark .ms-docs-wrapper-red p.ms-docs-title, body.dark .ms-docs-wrapper-red i {
+    color: #fde7e9 !important;
+}
+
+/*蓝色*/
+.ms-docs-wrapper-blue {
+    background: #d7eaf8b3;
+}
+
+body.dark .ms-docs-wrapper-blue {
+    background: #00417399;
+}
+
+.ms-docs-wrapper-blue:hover {
+    background: #d7eaf8;
+}
+
+body.dark .ms-docs-wrapper-blue:hover {
+    background: #004173;
+}
+
+.ms-docs-wrapper-blue p.ms-docs-title, .ms-docs-wrapper-blue i {
+    color: #004173 !important;
+}
+
+body.dark .ms-docs-wrapper-blue p.ms-docs-title, body.dark .ms-docs-wrapper-blue i {
+    color: #d7eaf8 !important;
+}
+
+/*绿色*/
+.ms-docs-wrapper-green {
+    background: #dff6ddb3;
+}
+
+body.dark .ms-docs-wrapper-green {
+    background: #054b1699;
+}
+
+.ms-docs-wrapper-green:hover {
+    background: #dff6dd;
+}
+
+body.dark .ms-docs-wrapper-green:hover {
+    background: #054b16;
+}
+
+.ms-docs-wrapper-green p.ms-docs-title, .ms-docs-wrapper-green i {
+    color: #054b16 !important;
+}
+
+body.dark .ms-docs-wrapper-green p.ms-docs-title, body.dark .ms-docs-wrapper-green i {
+    color: #dff6dd !important;
+}
