@@ -1,0 +1,88 @@
+/* purple */
+.ms-docs-common-titlestyle p.ms-docs-common {
+    font-weight: bold;
+    color: #3B2E58 !important;
+}
+
+body.dark .ms-docs-common-titlestyle p.ms-docs-common {
+    font-weight: bold;
+    color: #EFD9FD !important;
+}
+
+.ms-docs-common-titlestyle{
+    text-indent: 0 !important;
+}
+
+.ms-docs-common-titlestyle i {
+    color: #3B2E58 !important;
+    text-indent: 0 !important;
+}
+
+.ms-docs-common-titlestyle p {
+    text-indent: 0 !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+body.dark .ms-docs-common-titlestyle {
+    text-indent: 0 !important;
+}
+
+body.dark .ms-docs-common-titlestyle p {
+    color: #bbbbbb !important;
+    text-indent: 0 !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+body.dark .ms-docs-common-titlestyle i {
+    color: #EFD9FD !important;
+    text-indent: 0 !important;
+}
+
+.ms-docs-common-framestyle {
+    margin: 20px 8px !important;
+    padding: 0px 20px 0px 30px !important;
+    position: relative !important;
+    color: #505050;
+    box-shadow: 0 1px 30px -4px #e8e8e8;
+    background: #EFD9FDb3;
+    border-radius: 8px !important;
+    text-indent: 0 !important;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+    border: 1.5px solid #FFFFFF;
+}
+
+.ms-docs-common-framestyle:hover {
+    box-shadow: 0 1px 20px 10px #e8e8e8;
+    background: #EFD9FD;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
+
+.ms-docs-common-framestyle i {
+    padding-left: 4px !important;
+    padding-right: 16px !important;
+    font-size: medium;
+}    
+
+.ms-docs-common-framestyle a {
+    padding: 5px !important;
+}
+
+body.dark .ms-docs-common-framestyle {
+    color: #FFFFFF;
+    box-shadow: 0 1px 20px 2px rgba(26, 26, 26, 0.8);
+    background: #3B2E5899;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+    border: 1.5px solid #7d7d7d30;
+}
+
+body.dark .ms-docs-common-framestyle:hover {
+    box-shadow: 0 1px 30px -2px var(--theme-skin-dark) !important;
+    background: #3B2E58;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
