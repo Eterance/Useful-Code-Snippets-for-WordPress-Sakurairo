@@ -47,7 +47,7 @@ img.column-link-avatar {
     transition: all .2s;
     display: flex;
     border-radius: 8px;
-    border-right: 0px solid transparent;
+    border-left: 0px solid transparent;
 }
 .column-link-frame-style:hover {
     box-shadow: 0 1px 20px 10px #e8e8e8;
@@ -138,11 +138,11 @@ img.column-link-avatar-mo {
 }
 /* 在样式表中定义自定义横线样式 */
 .horizontal-line {
-    width: calc(100% - 28px); /* 设置横线宽度并左右各短14px */
+    width: calc(100% - 32px); /* 设置横线宽度并左右各短16px */
     height: 1px; /* 设置横线高度为1像素 */
     background-color: #505050; /* 将横线颜色更改为白色 */
-    margin-left: 14px; /* 左边缩短14px */
-    margin-right: 14px; /* 右边缩短14px */
+    margin-left: 16px; /* 左边缩短 */
+    margin-right: 16px; /* 右边缩短 */
 }
 body.dark .horizontal-line {
     background-color: #707070;
