@@ -1,0 +1,8 @@
+/*恢复深色模式下封面大图，色调不改变
+rgba(0,0,0,0.5) 最后的 0.5 是调整变暗的程度，范围 0-1，0 为 不变暗
+此代码变暗会使封面图稍微褪色，有点蒙上一层雾的感觉，但是比原版的色调大变好多了。
+*/ 
+body.dark .centerbg {
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0);
+}
