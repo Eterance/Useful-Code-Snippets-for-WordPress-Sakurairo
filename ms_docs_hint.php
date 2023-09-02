@@ -4,8 +4,8 @@
 function ms_like_hint_note($title, $content){
 	$html = 
 	<<<'flink'
-	<div class="ms-docs-common-titlestyle ms-docs-common-framestyle">
-		<p class="ms-docs-common">
+	<div class="ms-docs-wrapper">
+		<p class="ms-docs-title">
 			<i class="fa-solid fa-circle-exclamation fa-sm"></i>
 			$title
 		</p>
