@@ -19,6 +19,13 @@ img.column-link-avatar {
     flex-grow: 1;
     margin-left: 14px; /* 添加左边距 */
 }
+.text-wrapper-mo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 14px; /* 添加左边距 */
+    padding: 20px 0px;
+}
 .column-link-text-wrapper {
     display: flex;
     align-items: baseline;
@@ -39,30 +46,15 @@ img.column-link-avatar {
     -webkit-transition: all .2s;
     transition: all .2s;
     display: flex;
-}
-.column-link-frame-style.desktop {
     border-radius: 8px;
     border-right: 0px solid transparent;
-}
-.column-link-frame-style.mobile {
-    border-radius: 8px 8px 8px 8px;
-    border-width: 8px;
-    border-bottom: 8px transparent solid;
 }
 .column-link-frame-style:hover {
     box-shadow: 0 1px 20px 10px #e8e8e8;
     background: #AAAAAAFF;
     -webkit-transition: all .2s;
     transition: all .2s;
-}
-.column-link-frame-style.desktop:hover {
-    border-right: 20px solid #2582c8;
-}
-.column-link-frame-style.mobile:hover {
-    border-bottom: 8px solid #2582c8;
-}
-body.dark .column-link-frame-style.mobile:hover {
-    border-bottom: 8px solid #2582c8;
+    border-left: 20px solid #2582c8;
 }
 .column-link-frame-style i {
     padding-right: 20px !important;
@@ -97,22 +89,29 @@ body.dark .column-link-frame-style:hover p {
     font-weight: bold;
     margin: 0;
     text-align: left;
-    font-size: 24px;
+    font-size: 28px;
 }
-.column-link-add-date {
+.column-link-number {
     margin: 0;
     margin-right: 14px; /* 添加右边距 */
+}
+.column-link-number-mo {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 2px; /* 不加的话，视觉上数字会左凸出来一点（虽然实际没有） */
 }
 .column-link-description {
     margin-top: 10px;
     margin-bottom: 0;
 }
+.column-link-description-mo {
+    margin: 8px 0px 0px 0px;
+}
 
 
 .column-link-frame-size-mo {
     display: none;
-    flex-direction: column;        
-    margin: 10px 0px;
+    flex-direction: column;
     gap: 8px;
 }
 img.column-link-avatar-mo {
@@ -132,10 +131,10 @@ img.column-link-avatar-mo {
 .column-link-text-wrapper-mo {
     display: flex;
     flex-direction: column;
-    margin: 0px 10px 10px 12px;
+    margin: 0px 10px 0px 12px;
 }
 .column-link-text-wrapper-mo p.column-link-name{
-    font-size: 20px;
+    font-size: 22px;
 }
 /* 在样式表中定义自定义横线样式 */
 .horizontal-line {
