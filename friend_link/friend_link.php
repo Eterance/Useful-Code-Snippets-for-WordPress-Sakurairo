@@ -12,7 +12,7 @@ function friendly_link_shortcode($attr)
    ) , $attr ) ) ; // 提取短代码参数
 	$html = <<<'flink'
 	<div>
-		<a class="friendly-link-frame-size no-underline friendly-link-frame-style desktop" href="$link">
+		<a class="friendly-link-frame-size no-underline friendly-link-frame-style desktop" target="_blank" href="$link">
 			<div class="avatar-wrapper">
 				<img src="$img" class="friendly-link-avatar" />
 			</div>
@@ -27,7 +27,7 @@ function friendly_link_shortcode($attr)
 				</div>
 			</div>
 		</a>
-		<a class="friendly-link-frame-size-mo no-underline friendly-link-frame-style mobile" href="$link">
+		<a class="friendly-link-frame-size-mo no-underline friendly-link-frame-style mobile" target="_blank" href="$link">
 			<div class="avatar-date-star-wrapper-mo">
 				<img src="$img" class="friendly-link-avatar-mo" />
 				<div class="date-star-wrapper-mo">
