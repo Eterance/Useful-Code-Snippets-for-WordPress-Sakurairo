@@ -58,3 +58,7 @@ php：[column_link.php](https://github.com/Eterance/Useful-Code-Snippets-for-Wor
 css：[column_link.css](https://github.com/Eterance/Useful-Code-Snippets-for-WordPress-Sakurairo/blob/main/column_link/column_link.css)
 
 效果见 [专栏](https://blog.baldcoder.top/columns/) 页面。
+
+### 导航栏模糊背景
+
+css：[navigation_bar_blur.css](https://github.com/Eterance/Useful-Code-Snippets-for-WordPress-Sakurairo/blob/main/navigation_bar_blur.css)

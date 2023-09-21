@@ -1,0 +1,7 @@
+/* Sakurairo 导航栏模糊效果 */
+/*saturate：提高饱和度，因为模糊会降低饱和度； blur：模糊半径*/
+.site-header.yya {
+    backdrop-filter: saturate(150%) blur(12px);
+}
+
+
